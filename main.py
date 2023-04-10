@@ -6,7 +6,7 @@ from telebot import types
 from time import sleep
 #from pprint import pprint
 
-bot = telebot.TeleBot('5343231561:AAGB0nKpggD61U7t83sNgW_a0baKCQk2Deo')
+bot = telebot.TeleBot('TOKENNNNN')
 
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
